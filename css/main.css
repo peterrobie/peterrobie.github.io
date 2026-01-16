@@ -3,3 +3,7 @@
 .carousel-item > img {
     transform: scaleX(-1);
 }
+a {
+    color: rgba(var(--bs-gray-700), var(--bs-link-opacity, 1));
+    text-decoration: underline;
+}
