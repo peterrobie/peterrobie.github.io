@@ -1,0 +1,5 @@
+/* Overrides */
+
+.carousel-item > img {
+    transform: scaleX(-1);
+}
