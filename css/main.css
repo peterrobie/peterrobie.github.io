@@ -8,3 +8,7 @@ a {
     text-decoration: underline;
 }
 li.nav-item:not(:last-child) { border-right: 1px solid; }
+
+@media (min-width: 768px) {
+    li.nav-item:not(:last-child) { border-right: 0px solid; }
+}
